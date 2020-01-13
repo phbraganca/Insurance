@@ -1,0 +1,17 @@
+C:\Users\TEMP\source\repos\System\InsuranceWebAPI\obj\Debug\netcoreapp2.1\InsuranceWebAPI.csprojAssemblyReference.cache
+C:\Users\TEMP\source\repos\System\InsuranceWebAPI\bin\Debug\netcoreapp2.1\InsuranceWebAPI.deps.json
+C:\Users\TEMP\source\repos\System\InsuranceWebAPI\bin\Debug\netcoreapp2.1\InsuranceWebAPI.runtimeconfig.json
+C:\Users\TEMP\source\repos\System\InsuranceWebAPI\bin\Debug\netcoreapp2.1\InsuranceWebAPI.runtimeconfig.dev.json
+C:\Users\TEMP\source\repos\System\InsuranceWebAPI\bin\Debug\netcoreapp2.1\InsuranceWebAPI.dll
+C:\Users\TEMP\source\repos\System\InsuranceWebAPI\bin\Debug\netcoreapp2.1\InsuranceWebAPI.pdb
+C:\Users\TEMP\source\repos\System\InsuranceWebAPI\obj\Debug\netcoreapp2.1\InsuranceWebAPI.csproj.CoreCompileInputs.cache
+C:\Users\TEMP\source\repos\System\InsuranceWebAPI\obj\Debug\netcoreapp2.1\InsuranceWebAPI.RazorAssemblyInfo.cache
+C:\Users\TEMP\source\repos\System\InsuranceWebAPI\obj\Debug\netcoreapp2.1\InsuranceWebAPI.RazorAssemblyInfo.cs
+C:\Users\TEMP\source\repos\System\InsuranceWebAPI\obj\Debug\netcoreapp2.1\InsuranceWebAPI.AssemblyInfoInputs.cache
+C:\Users\TEMP\source\repos\System\InsuranceWebAPI\obj\Debug\netcoreapp2.1\InsuranceWebAPI.AssemblyInfo.cs
+C:\Users\TEMP\source\repos\System\InsuranceWebAPI\obj\Debug\netcoreapp2.1\InsuranceWebAPI.RazorTargetAssemblyInfo.cache
+C:\Users\TEMP\source\repos\System\InsuranceWebAPI\obj\Debug\netcoreapp2.1\InsuranceWebAPI.dll
+C:\Users\TEMP\source\repos\System\InsuranceWebAPI\obj\Debug\netcoreapp2.1\InsuranceWebAPI.pdb
+C:\Users\TEMP\source\repos\System\InsuranceWebAPI\bin\Debug\netcoreapp2.1\Insurance.Domain.dll
+C:\Users\TEMP\source\repos\System\InsuranceWebAPI\bin\Debug\netcoreapp2.1\Insurance.Domain.pdb
+C:\Users\TEMP\source\repos\System\InsuranceWebAPI\obj\Debug\netcoreapp2.1\InsuranceWebAPI.csproj.CopyComplete
