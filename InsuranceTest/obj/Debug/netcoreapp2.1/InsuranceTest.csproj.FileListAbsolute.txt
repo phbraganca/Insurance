@@ -1,0 +1,11 @@
+C:\Users\TEMP\source\repos\System\InsuranceTest\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\TEMP\source\repos\System\InsuranceTest\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\TEMP\source\repos\System\InsuranceTest\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+C:\Users\TEMP\source\repos\System\InsuranceTest\bin\Debug\netcoreapp2.1\InsuranceTest.deps.json
+C:\Users\TEMP\source\repos\System\InsuranceTest\bin\Debug\netcoreapp2.1\InsuranceTest.runtimeconfig.json
+C:\Users\TEMP\source\repos\System\InsuranceTest\bin\Debug\netcoreapp2.1\InsuranceTest.runtimeconfig.dev.json
+C:\Users\TEMP\source\repos\System\InsuranceTest\bin\Debug\netcoreapp2.1\InsuranceTest.dll
+C:\Users\TEMP\source\repos\System\InsuranceTest\obj\Debug\netcoreapp2.1\InsuranceTest.csprojAssemblyReference.cache
+C:\Users\TEMP\source\repos\System\InsuranceTest\obj\Debug\netcoreapp2.1\InsuranceTest.csproj.CoreCompileInputs.cache
+C:\Users\TEMP\source\repos\System\InsuranceTest\obj\Debug\netcoreapp2.1\InsuranceTest.AssemblyInfoInputs.cache
+C:\Users\TEMP\source\repos\System\InsuranceTest\obj\Debug\netcoreapp2.1\InsuranceTest.AssemblyInfo.cs

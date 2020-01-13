@@ -1,0 +1,14 @@
+C:\Users\TEMP\source\repos\System\Insurance.Data\obj\Debug\netcoreapp2.1\Insurance.Data.csprojAssemblyReference.cache
+C:\Users\TEMP\source\repos\System\Insurance.Data\obj\Debug\netcoreapp2.1\Insurance.Data.csproj.CoreCompileInputs.cache
+C:\Users\TEMP\source\repos\System\Insurance.Data\obj\Debug\netcoreapp2.1\Insurance.Data.AssemblyInfoInputs.cache
+C:\Users\TEMP\source\repos\System\Insurance.Data\obj\Debug\netcoreapp2.1\Insurance.Data.AssemblyInfo.cs
+C:\Users\TEMP\source\repos\System\Insurance.Data\bin\Debug\netcoreapp2.1\Insurance.Data.deps.json
+C:\Users\TEMP\source\repos\System\Insurance.Data\bin\Debug\netcoreapp2.1\Insurance.Data.dll
+C:\Users\TEMP\source\repos\System\Insurance.Data\bin\Debug\netcoreapp2.1\Insurance.Data.pdb
+C:\Users\TEMP\source\repos\System\Insurance.Data\bin\Debug\netcoreapp2.1\Insurance.Domain.dll
+C:\Users\TEMP\source\repos\System\Insurance.Data\bin\Debug\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\TEMP\source\repos\System\Insurance.Data\bin\Debug\netcoreapp2.1\Insurance.Domain.pdb
+C:\Users\TEMP\source\repos\System\Insurance.Data\bin\Debug\netcoreapp2.1\System.Data.SqlClient.xml
+C:\Users\TEMP\source\repos\System\Insurance.Data\obj\Debug\netcoreapp2.1\Insurance.Data.csproj.CopyComplete
+C:\Users\TEMP\source\repos\System\Insurance.Data\obj\Debug\netcoreapp2.1\Insurance.Data.dll
+C:\Users\TEMP\source\repos\System\Insurance.Data\obj\Debug\netcoreapp2.1\Insurance.Data.pdb

@@ -1,0 +1,13 @@
+C:\Users\TEMP\source\repos\System\Insurance.Domain\bin\Debug\netcoreapp2.1\Insurance.Domain.deps.json
+C:\Users\TEMP\source\repos\System\Insurance.Domain\bin\Debug\netcoreapp2.1\Insurance.Domain.dll
+C:\Users\TEMP\source\repos\System\Insurance.Domain\bin\Debug\netcoreapp2.1\Insurance.Domain.pdb
+C:\Users\TEMP\source\repos\System\Insurance.Domain\bin\Debug\netcoreapp2.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\TEMP\source\repos\System\Insurance.Domain\bin\Debug\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\TEMP\source\repos\System\Insurance.Domain\bin\Debug\netcoreapp2.1\Microsoft.IdentityModel.Protocols.xml
+C:\Users\TEMP\source\repos\System\Insurance.Domain\bin\Debug\netcoreapp2.1\System.Data.SqlClient.xml
+C:\Users\TEMP\source\repos\System\Insurance.Domain\obj\Debug\netcoreapp2.1\Insurance.Domain.csproj.CoreCompileInputs.cache
+C:\Users\TEMP\source\repos\System\Insurance.Domain\obj\Debug\netcoreapp2.1\Insurance.Domain.AssemblyInfoInputs.cache
+C:\Users\TEMP\source\repos\System\Insurance.Domain\obj\Debug\netcoreapp2.1\Insurance.Domain.AssemblyInfo.cs
+C:\Users\TEMP\source\repos\System\Insurance.Domain\obj\Debug\netcoreapp2.1\Insurance.Domain.csproj.CopyComplete
+C:\Users\TEMP\source\repos\System\Insurance.Domain\obj\Debug\netcoreapp2.1\Insurance.Domain.dll
+C:\Users\TEMP\source\repos\System\Insurance.Domain\obj\Debug\netcoreapp2.1\Insurance.Domain.pdb
