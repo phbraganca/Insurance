@@ -9587,11 +9587,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\TEMP\\source\\repos\\System\\InsuranceTest\\InsuranceTest.csproj",
+      "projectUniqueName": "C:\\Users\\TEMP\\source\\repos\\Insurance\\InsuranceTest\\InsuranceTest.csproj",
       "projectName": "InsuranceTest",
-      "projectPath": "C:\\Users\\TEMP\\source\\repos\\System\\InsuranceTest\\InsuranceTest.csproj",
+      "projectPath": "C:\\Users\\TEMP\\source\\repos\\Insurance\\InsuranceTest\\InsuranceTest.csproj",
       "packagesPath": "C:\\Users\\TEMP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TEMP\\source\\repos\\System\\InsuranceTest\\obj\\",
+      "outputPath": "C:\\Users\\TEMP\\source\\repos\\Insurance\\InsuranceTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -9610,11 +9610,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\TEMP\\source\\repos\\System\\Insurance.Domain\\Insurance.Domain.csproj": {
-              "projectPath": "C:\\Users\\TEMP\\source\\repos\\System\\Insurance.Domain\\Insurance.Domain.csproj"
+            "C:\\Users\\TEMP\\source\\repos\\Insurance\\Insurance.Domain\\Insurance.Domain.csproj": {
+              "projectPath": "C:\\Users\\TEMP\\source\\repos\\Insurance\\Insurance.Domain\\Insurance.Domain.csproj"
             },
-            "C:\\Users\\TEMP\\source\\repos\\System\\InsuranceWebAPI\\InsuranceWebAPI.csproj": {
-              "projectPath": "C:\\Users\\TEMP\\source\\repos\\System\\InsuranceWebAPI\\InsuranceWebAPI.csproj"
+            "C:\\Users\\TEMP\\source\\repos\\Insurance\\InsuranceWebAPI\\InsuranceWebAPI.csproj": {
+              "projectPath": "C:\\Users\\TEMP\\source\\repos\\Insurance\\InsuranceWebAPI\\InsuranceWebAPI.csproj"
             }
           }
         }

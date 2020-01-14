@@ -9,3 +9,7 @@ C:\Users\TEMP\source\repos\System\InsuranceTest\obj\Debug\netcoreapp2.1\Insuranc
 C:\Users\TEMP\source\repos\System\InsuranceTest\obj\Debug\netcoreapp2.1\InsuranceTest.csproj.CoreCompileInputs.cache
 C:\Users\TEMP\source\repos\System\InsuranceTest\obj\Debug\netcoreapp2.1\InsuranceTest.AssemblyInfoInputs.cache
 C:\Users\TEMP\source\repos\System\InsuranceTest\obj\Debug\netcoreapp2.1\InsuranceTest.AssemblyInfo.cs
+C:\Users\TEMP\source\repos\Insurance\InsuranceTest\obj\Debug\netcoreapp2.1\InsuranceTest.csprojAssemblyReference.cache
+C:\Users\TEMP\source\repos\Insurance\InsuranceTest\obj\Debug\netcoreapp2.1\InsuranceTest.csproj.CoreCompileInputs.cache
+C:\Users\TEMP\source\repos\Insurance\InsuranceTest\obj\Debug\netcoreapp2.1\InsuranceTest.AssemblyInfoInputs.cache
+C:\Users\TEMP\source\repos\Insurance\InsuranceTest\obj\Debug\netcoreapp2.1\InsuranceTest.AssemblyInfo.cs

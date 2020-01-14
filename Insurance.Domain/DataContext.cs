@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Reflection;
 using System.Text;
 
@@ -20,82 +21,108 @@ namespace Insurance.Domain
             _connection = connection;
         }
 
-        public static IList<Customer> Customer = new List<Customer>();
 
-        public static IList<Address> Address = new List<Address>();
-
-        public static IList<City> City = new List<City>();
-
-        public static IList<Country> Country = new List<Country>();
-
-        public static IList<AdressType> AddressType = new List<AdressType>();
-
-        public static IList<State> State = new List<State>();
-
-        private object[] objs = new object[1];
+        private static List<Address> Address = new List<Address>();
+        private static List<Customer> Customer = new List<Customer>();
         
+        private static List<City> City = new List<City>();
+        
+        private static List<Country> Country = new List<Country>();
+        
+        private static List<AdressType> AddressType = new List<AdressType>();
+        
+        private static List<State> State = new List<State>();
+                        
         public void Set(T obj) {
             
-            objs[0] = obj;
             var nameOfClass = obj.ToString().Split(".")[obj.ToString().Split(".").Count() - 1];
-            dynamic objectName = (object)nameOfClass;
+            var objList = ReturnObject(nameOfClass);
 
-            var method = ((object)nameOfClass).GetType().GetMethod("Add");
-            method.Invoke(obj,objs);
+            if (objList != null)
+            {
+                var list = (List<T>)objList;
+                list.Add(obj);
+            }
             
         }
 
         public void Remove(T obj)
         {
-            IList<T> list = new List<T>();
+            var nameOfClass = obj.ToString().Split(".")[obj.ToString().Split(".").Count() - 1];
 
-            list = (List<T>)(object)obj.ToString().GetType();
-
-            list.Remove(obj);
+            var objList = ReturnObject(nameOfClass);
+            if (objList != null)
+            {
+                var list = (List<T>)objList;
+                var item = FirstOrDefault(obj);
+                list.Remove(item);
+            }
                         
         }
 
         public void Update(T obj)
         {
-            IList<T> list = new List<T>();
             var nameOfClass = obj.ToString().Split(".")[obj.ToString().Split(".").Count() - 1];
+            var objList = ReturnObject(nameOfClass);
 
-            list = (List<T>)(object)nameOfClass.GetType();
-            
-            var nameOfProperty = obj.ToString()+"Id";
-            var propertyInfo = (object)nameOfClass.GetType().GetProperty(nameOfProperty);
+            if (objList != null)
+            {
+                var list = (List<T>)objList;
+                var item = this.FirstOrDefault(obj);
 
-            var item = list.Where(x => x.GetType().GetProperty(nameOfProperty) == propertyInfo.GetType().GetProperty(nameOfProperty).GetValue(propertyInfo)).SingleOrDefault();
-
-            list.Remove(item);
-            list.Add(obj);
+                list.Remove(item);
+                list.Add(obj);                
+            }            
         }
         
         public IList<T> List(T obj)
         {
-            IList<T> list = new List<T>();
-            
             var nameOfClass = obj.ToString().Split(".")[obj.ToString().Split(".").Count() - 1];
+            var objList = ReturnObject(nameOfClass);
+            
+            if (objList != null)
+            {
+                var list = (List<T>)objList;
 
-            PropertyInfo oi = typeof(List<T>).GetProperty(nameOfClass);
-            Type t = Type.GetType("DataContext");
+                return list;
+            }
+            else
+            {
+                return null;
+            }
 
-            t.GetProperty(nameOfClass, BindingFlags.Public | BindingFlags.Static | BindingFlags.FlattenHierarchy);
-
-            dynamic objectName = (object)nameOfClass;
-            list = (List<T>)(object)nameOfClass.GetType();
-
-            return list;
         }
 
         public T FirstOrDefault(T obj)
         {
-            IList<T> list = new List<T>();
-
             var nameOfClass = obj.ToString().Split(".")[obj.ToString().Split(".").Count() - 1];
-            list = (List<T>)(object)nameOfClass.GetType();
+            var objList = ReturnObject(nameOfClass);
+
+            if (objList != null)
+            {
+                var list = (List<T>)objList;
+                string nameOfProperty = obj.ToString() + "Id";
+                nameOfProperty = nameOfProperty.ToString().Split(".")[obj.ToString().Split(".").Count() - 1];
+
+                var propertyInfo = obj.GetType().GetProperty(nameOfProperty);
+                var valueFromObject = propertyInfo.GetValue(obj, null);
+                
+                ParameterExpression parameter = Expression.Parameter(typeof(T), "x");
+                Expression property = Expression.Property(parameter, nameOfProperty);
+                Expression constant = Expression.Constant(valueFromObject);
+                Expression equality = Expression.Equal(property, constant);
+                Expression<Func<T, bool>> predicate =
+                    Expression.Lambda<Func<T, bool>>(equality, parameter);
+
+                Func<T, bool> compiled = predicate.Compile();
+
+                return list.Where(compiled).FirstOrDefault();
+            }
+            else
+            {
+                return null;
+            }
             
-            return list.FirstOrDefault(x => x == obj);
         }
 
         public void ExecuteQueries(string Query_)
@@ -111,5 +138,42 @@ namespace Insurance.Domain
             return dr;
         }
 
+
+        private object ReturnObject(string nameOfObject)
+        {
+            if (nameOfObject == "Customer")
+            {
+                return Customer;
+            }
+            else
+            if (nameOfObject == "Address")
+            {
+                return Address;
+            }
+            else
+            if (nameOfObject == "City")
+            {
+                return City;
+            }
+            else
+            if (nameOfObject == "State")
+            {
+                return State;
+
+            }
+            else
+            if (nameOfObject == "Country")
+            {
+                return Country;
+            }
+            else
+            {
+                return null;
+            }
+
+            
+
+
+        }
     }
 }

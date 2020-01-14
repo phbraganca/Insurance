@@ -687,11 +687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\TEMP\\source\\repos\\System\\Insurance.Domain\\Insurance.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\TEMP\\source\\repos\\Insurance\\Insurance.Domain\\Insurance.Domain.csproj",
       "projectName": "Insurance.Domain",
-      "projectPath": "C:\\Users\\TEMP\\source\\repos\\System\\Insurance.Domain\\Insurance.Domain.csproj",
+      "projectPath": "C:\\Users\\TEMP\\source\\repos\\Insurance\\Insurance.Domain\\Insurance.Domain.csproj",
       "packagesPath": "C:\\Users\\TEMP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TEMP\\source\\repos\\System\\Insurance.Domain\\obj\\",
+      "outputPath": "C:\\Users\\TEMP\\source\\repos\\Insurance\\Insurance.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

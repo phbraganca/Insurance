@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Insurance.Domain", "Insuran
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{D64F831C-22FA-4AC5-8874-8898A5CCEDF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsuranceTest", "InsuranceTest\InsuranceTest.csproj", "{EFEEA6AF-8757-4D6B-A41A-31E1A5C895F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InsuranceTest", "InsuranceTest\InsuranceTest.csproj", "{EFEEA6AF-8757-4D6B-A41A-31E1A5C895F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
